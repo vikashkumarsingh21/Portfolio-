@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Kumar - AI & ML Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-circle"></div>
+                <div class="loader-text">VK</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Vikash</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-text="Home">Home</a></li>
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#skills" data-text="Skills">Skills</a></li>
+                <li><a href="#projects" data-text="Projects">Projects</a></li>
+                <li><a href="#experience" data-text="Experience">Experience</a></li>
+                <li><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-palette"></i>
+            </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <div class="greeting">Hello, I'm</div>
+                    <h1 class="hero-name">
+                        <span class="name-part">Vikash</span>
+                        <span class="name-part">Kumar</span>
+                    </h1>
+                    <div class="hero-title">
+                        <span class="typing-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </div>
+                    <p class="hero-description">
+                        I'm a passionate AI & ML developer creating innovative solutions 
+                        that bridge the gap between technology and real-world impact.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-comments"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/vikashkumar" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/vikashkumar" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:vk0102103@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919473263768" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="profile-section">
+                    <div class="profile-container">
+                        <div class="profile-image">
+                            <img id="profile-img" src="image.jpg" alt="Vikash Kumar">
+                            <div class="profile-overlay">
+                                <i class="fas fa-camera"></i>
+                                <span>Change Photo</span>
+                            </div>
+                        </div>
+                        <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                        <div class="profile-ring"></div>
+                        <div class="profile-particles">
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                        </div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Years Study</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">Hackathon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <div class="scroll-text">Scroll Down</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Developer & Innovator</h3>
+                    <p>
+                        I'm a B.Tech Computer Science & Engineering student specializing in AI & ML at Marwadi University. 
+                        With a deep passion for emerging technologies, I focus on creating solutions that make a real difference.
+                    </p>
+                    <p>
+                        My journey in technology is driven by curiosity and the desire to push boundaries. From developing 
+                        voice-controlled AI assistants to creating autonomous water-cleaning robots, I believe in the power 
+                        of innovation to solve real-world problems.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>SIH 2025 Qualified</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Startup Co-founder</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML Specialist</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Dev</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Rajkot, Gujarat</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">University:</span>
+                            <span class="detail-value">Marwadi University</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Degree:</span>
+                            <span class="detail-value">B.Tech CSE (AI & ML)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Languages:</span>
+                            <span class="detail-value">Hindi, English, Bengali, Bhojpuri</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="experience-card">
+                        <h4>My Journey</h4>
+                        <div class="journey-timeline">
+                            <div class="journey-item">
+                                <div class="journey-year">2024</div>
+                                <div class="journey-desc">Started B.Tech at Marwadi University</div>
+                            </div>
+                            <div class="journey-item">
+                                <div class="journey-year">2025</div>
+                                <div class="journey-desc">Selected for Smart India Hackathon</div>
+                            </div>
+                            <div class="journey-item">
+                                <div class="journey-year">Now</div>
+                                <div class="journey-desc">Building innovative AI solutions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Python</span>
+                                        <span class="skill-level">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item" data-skill="75">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-cuttlefish"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">C++</span>
+                                        <span class="skill-level">75%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="75"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill="70">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-js-square"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">JavaScript</span>
+                                        <span class="skill-level">70%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Technologies -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="90">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-html5"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">HTML5</span>
+                                        <span class="skill-level">90%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">CSS3</span>
+                                        <span class="skill-level">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-bootstrap"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Bootstrap</span>
+                                        <span class="skill-level">80%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="80"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & ML -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="10">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Machine Learning</span>
+                                        <span class="skill-level">10%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="10"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item" data-skill="25">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-robot"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Robotics</span>
+                                        <span class="skill-level">25%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="25"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill="5">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-network-wired"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Deep Learning</span>
+                                        <span class="skill-level">5%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Database -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Database</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">GitHub</span>
+                                        <span class="skill-level">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item" data-skill="70">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">MySQL</span>
+                                        <span class="skill-level">70%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="70"></div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skill-item" data-skill="75">
+                                <div class="skill-info">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-docker"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <span class="skill-name">Docker</span>
+                                        <span class="skill-level">75%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="75"></div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-ship"></i>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Robotics • IoT</div>
+                        <h3>Jal Mitra - Water Cleaning RoBoat</h3>
+                        <p>Autonomous water-surface cleaning robot selected for Smart India Hackathon 2025. Currently being commercialized as a startup venture.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Robotics</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Autonomous Systems</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge featured">SIH 2025 Selected</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-microphone-alt"></i>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">AI • Voice Tech</div>
+                        <h3>Jarvis AI Assistant</h3>
+                        <p>Advanced voice-controlled Python assistant for productivity tasks and system automation with natural language processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Voice Recognition</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" src="amazone clone.png">
+                        <i class="fas fa-plus"></i>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/vikashkumar" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Devlopment</div>
+                        <h3>Amazon</h3>
+                        <p>I developed an Amazon clone using HTML5, CSS, and GitHub, replicating the design and layout of the.... </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Github</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-plus"></i>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/vikashkumar" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="project-content">
+                        <div class="project-category">Coming Soon</div>
+                        <h3>More Projects</h3>
+                        <p>I'm constantly working on new and exciting projects. Stay tuned for updates on my latest innovations in AI and robotics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2028</div>
+                        <h3>B.Tech Computer Science & Engineering</h3>
+                        <h4>Marwadi University</h4>
+                        <p>Specialization in AI & ML • CGPA: 7.90/10</p>
+                        <div class="timeline-tags">
+                            <span class="tag">AI & ML</span>
+                            <span class="tag">Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2025</div>
+                        <h3>Technology Job Simulation</h3>
+                        <h4>Deloitte (Virtual)</h4>
+                        <p>Participated in technology job simulation focusing on real-world business challenges and innovative solutions.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Business Analysis</span>
+                            <span class="tag">Consulting</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024 - Present</div>
+                        <h3>Co-founder & Developer</h3>
+                        <h4>Jal Mitra Startup</h4>
+                        <p>Leading the commercialization of autonomous water-cleaning robot technology. Selected for Smart India Hackathon 2025.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Entrepreneurship</span>
+                            <span class="tag">Robotics</span>
+                            <span class="tag">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always excited to discuss new opportunities, collaborate on innovative projects, or just have a chat about technology and its endless possibilities.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">vk0102103@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+91 9473263768</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Rajkot, Gujarat, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-contact">
+                        <a href="https://github.com/vikashkumar" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/vikashkumar" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:vk0102103@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">Vikash</span>
+                        <span class="logo-dot">.</span>
+                    </div>
+                    <p>Building the future with innovative AI solutions and creative technology.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-copy">
+                        <p>&copy; 2025 Vikash Kumar. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Color Theme Selector -->
+    <div id="theme-selector" class="theme-selector">
+        <div class="theme-header">
+            <h4>Choose Theme</h4>
+            <button class="theme-close">&times;</button>
+        </div>
+        <div class="color-options">
+            <div class="color-option active" data-theme="green">
+                <div class="color-preview" style="background: linear-gradient(135deg, #00ff88, #00d4ff)"></div>
+                <span>Green</span>
+            </div>
+            <div class="color-option" data-theme="blue">
+                <div class="color-preview" style="background: linear-gradient(135deg, #0099ff, #00d4ff)"></div>
+                <span>Blue</span>
+            </div>
+            <div class="color-option" data-theme="purple">
+                <div class="color-preview" style="background: linear-gradient(135deg, #8b5cf6, #a855f7)"></div>
+                <span>Purple</span>
+            </div>
+            <div class="color-option" data-theme="orange">
+                <div class="color-preview" style="background: linear-gradient(135deg, #ff6b35, #ff8c42)"></div>
+                <span>Orange</span>
+            </div>
+            <div class="color-option" data-theme="pink">
+                <div class="color-preview" style="background: linear-gradient(135deg, #ff49db, #ff7ad3)"></div>
+                <span>Pink</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
